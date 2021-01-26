@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { SavebuttonComponent } from './savebutton/savebutton.component';
+import { PagesummaryComponent } from './pagesummary/pagesummary.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    SavebuttonComponent
+    SavebuttonComponent,
+    PagesummaryComponent
   ],
   imports: [
     BrowserModule,
